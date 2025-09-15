@@ -8,11 +8,6 @@ import (
 	"github.com/Peacemaker-DB/GoPracZ2-BorisovDA/utils"
 )
 
-type pingResp struct {
-	Status string `json:"status"`
-	Time   string `json:"time"`
-}
-
 func Run() {
 	mux := http.NewServeMux()
 
